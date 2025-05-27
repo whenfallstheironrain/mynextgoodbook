@@ -19,7 +19,7 @@ function App() {
     }
 
     try {
-      const response = await axios.post('https://mynextgoodbook.onrender.com/analyze', {
+      const response = await axios.post('https://mynextgoodbook-backend.onrender.com/analyze', {
   books: bookList,
 });
 
